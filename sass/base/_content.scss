@@ -1,6 +1,10 @@
 /* =Content
 ----------------------------------------------- */
-
+#primary {
+	@extend %span_7;
+	@extend %col;
+	@extend %row;
+}
 .sticky {
 }
 .hentry {
