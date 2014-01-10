@@ -1,6 +1,9 @@
 /* =Widgets
 ----------------------------------------------- */
-
+#secondary {
+	@extend %col;
+	@extend %span_4;
+}
 .widget {
 	margin: 0 0 1.5em;
 }

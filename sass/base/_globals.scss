@@ -6,9 +6,10 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
-	font-family: sans-serif;
-	font-size: 16px;
+	background: $background-color;
+	color: $font-color;
+	font-family: $font-family;
+	font-size: $font-size;
 	font-size: 1.6rem;
 	line-height: 1.5;
 }
@@ -16,9 +17,10 @@ textarea {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
+	color: $title-color;
 }
 hr {
-	background-color: #ccc;
+	background-color: $font-color;
 	border: 0;
 	height: 1px;
 	margin-bottom: 1.5em;
@@ -213,15 +215,15 @@ textarea {
 
 /* Links */
 a {
-	color: royalblue;
+	color: $link-color;
 }
 a:visited {
-	color: purple;
+	color: $link-visited-color;
 }
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	color: $link-hover-color;
 }
 
 /* Alignment */
