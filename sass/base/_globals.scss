@@ -6,8 +6,8 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
-	font-family: sans-serif;
+	color: $font-color;
+	font-family: $font-family;
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 1.5;
@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
 hr {
-	background-color: #ccc;
+	background-color: $font-color;
 	border: 0;
 	height: 1px;
 	margin-bottom: 1.5em;
