@@ -1,0 +1,35 @@
+/*!
+Theme Name: Sassy Starter
+Theme URI: http://underscores.me/
+Author: Missy \"Bunnie\" Oveson
+Author URI: http://www.bunnieblogs.com
+Description: A starter theme for Bunnie\'s adventures in Sass.
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Text Domain: sassy-starter
+Domain Path: /languages/
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ Sassy Starter is based on Underscores http://underscores.me/, (C) 2012-2013 Automattic, Inc.
+*/
+
+
+// Basic Set Up
+@import "_reset.scss";
+@import "_grid.scss";
+
+
+// Styling Includes
+@import "base/_globals.scss";
+@import "base/_menu.scss";
+@import "base/_content.scss";
+@import "base/_asides.scss";
+@import "base/_media.scss";
+@import "base/_navigation.scss";
+@import "base/_comments.scss";
+@import "base/_widgets.scss";
+@import "base/_infinite-scroll.scss";
