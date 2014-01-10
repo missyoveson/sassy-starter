@@ -6,9 +6,10 @@ button,
 input,
 select,
 textarea {
+	background: $background-color;
 	color: $font-color;
 	font-family: $font-family;
-	font-size: 16px;
+	font-size: $font-size;
 	font-size: 1.6rem;
 	line-height: 1.5;
 }
@@ -213,15 +214,15 @@ textarea {
 
 /* Links */
 a {
-	color: royalblue;
+	color: $link-color;
 }
 a:visited {
-	color: purple;
+	color: $link-visited-color;
 }
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	color: $link-hover-color;
 }
 
 /* Alignment */
