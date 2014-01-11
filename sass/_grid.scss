@@ -68,7 +68,7 @@
         
 
         
-        %row .col:first-child {
+        %row, %col:first-child {
             @include span_first;
         }
         

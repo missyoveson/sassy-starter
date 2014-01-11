@@ -5,7 +5,7 @@
 	@extend %span_4;
 }
 .widget {
-	margin: 0 0 1.5em;
+	margin: 0 0 $margin_bottom;
 }
 
 /* Make sure select elements fit in widgets */
