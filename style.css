@@ -1,6 +1,6 @@
 /*!
 Theme Name: Sassy Starter
-Theme URI: http://underscores.me/
+Theme URI: https://github.com/MissyBunnie/Sassy-Starter
 Author: Missy "Bunnie" Oveson
 Author URI: http://www.bunnieblogs.com
 Description: A starter theme for Sass.
@@ -9,7 +9,7 @@ License: GNU General Public License
 License URI: license.txt
 Text Domain: sassy-starter
 Domain Path: /languages/
-Tags:
+Tags: flexible-width, two-columns, right-sidebar
 
  Sassy Starter is based on Underscores http://underscores.me/, (C) 2012-2013 Automattic, Inc.
 */
@@ -108,8 +108,6 @@ a img {
  * Generator - http://gridpak.com/
  * Created by @erskinedesign
  */
-/* Reusable column setup */
-
 #primary, #secondary {
   border: 0px solid rgba(0, 0, 0, 0);
   float: left;
@@ -142,40 +140,21 @@ Span 12:    100%
     margin-left: 1%;
     padding: 0 1%; }
 
-<<<<<<< HEAD
-  /* --- Gridpak variables ---*/
-  #primary .col:first-child {
-    margin-left: 0; }
-
-  /*
-  Add your semantic classnames in alongside their corresponding spans here. e.g.
-  
-  .span_3,
-  .my_semantic_class_name {
-      ...
-  }
-  
-  */
-=======
   #primary #primary:first-child, #primary #secondary:first-child {
     margin-left: 0; }
 
->>>>>>> sass_folder
   #secondary {
     width: 32.66667%;
     border-left-width: 0;
     padding: 0 1%;
     margin-left: 1%; }
 
-<<<<<<< HEAD
-=======
   [class*="navigation"] .nav-previous, [class*="navigation"] .nav-next {
     width: 49.5%;
     border-left-width: 0;
     padding: 0 1%;
     margin-left: 1%; }
 
->>>>>>> sass_folder
   #primary {
     width: 57.91667%;
     border-left-width: 0;
@@ -246,23 +225,15 @@ pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
   font-size: 15px;
-  font-size: 1.5rem;
+  font-size: 15px;
   line-height: 1.6;
-<<<<<<< HEAD
-  margin-bottom: 1.6em;
-=======
   margin-bottom: 1.5em;
->>>>>>> sass_folder
   max-width: 100%;
   overflow: auto;
   padding: 1.6em; }
 
 code, kbd, tt, var {
-<<<<<<< HEAD
-  font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace; }
-=======
   font: 15px "Courier 10 Pitch", Courier, monospace; }
->>>>>>> sass_folder
 
 abbr, acronym {
   border-bottom: 1px dotted #666;
@@ -325,7 +296,7 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   border-color: #ccc #ccc #bbb #ccc;
   border-radius: 3px;
   background: #e6e6e6;
@@ -388,12 +359,8 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-<<<<<<< HEAD
-  color: #666;
-=======
   color: #404040;
->>>>>>> sass_folder
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   border-radius: 3px; }
 
 input[type="text"]:focus,
@@ -402,11 +369,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 input[type="search"]:focus,
 textarea:focus {
-<<<<<<< HEAD
-  color: #111; }
-=======
   color: #404040; }
->>>>>>> sass_folder
 
 input[type="text"],
 input[type="email"],
@@ -555,8 +518,6 @@ a:active {
     display: none; } }
 /* =Content
 ----------------------------------------------- */
-<<<<<<< HEAD
-=======
 @media screen and (max-width: 800px) {
   #primary {
     width: 100%; } }
@@ -564,7 +525,6 @@ a:active {
 .sticky {
   background: yellow; }
 
->>>>>>> sass_folder
 .hentry {
   margin: 0 0 1.5em; }
 
@@ -602,7 +562,7 @@ a:active {
   padding: 0; }
 
 .wp-caption {
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   margin-bottom: 1.5em;
   max-width: 100%; }
 
@@ -620,12 +580,9 @@ a:active {
 .site-main .gallery {
   margin-bottom: 1.5em; }
 
-<<<<<<< HEAD
-=======
 .gallery-caption {
   background: white; }
 
->>>>>>> sass_folder
 .site-main .gallery a img {
   border: none;
   height: auto;
@@ -646,30 +603,15 @@ object {
   margin: 0 0 1.5em;
   overflow: hidden; }
 
-<<<<<<< HEAD
-[class*="navigation"] .nav-previous {
-  float: left;
-  width: 50%; }
-
-[class*="navigation"] .nav-next {
-  float: right;
-  text-align: right;
-  width: 50%; }
-=======
 [class*="navigation"] .nav-next {
   float: right;
   text-align: right; }
->>>>>>> sass_folder
 
 /* =Comments
 ----------------------------------------------- */
 .comment-content a {
   word-wrap: break-word; }
 
-<<<<<<< HEAD
-/* =Widgets
------------------------------------------------ */
-=======
 .bypostauthor {
   background: white; }
 
@@ -677,10 +619,8 @@ object {
 ----------------------------------------------- */
 @media screen and (max-width: 800px) {
   #secondary {
-    width: 100%;
-    margin-left: 0; } }
+    width: 100%; } }
 
->>>>>>> sass_folder
 .widget {
   margin: 0 0 1.5em; }
 
