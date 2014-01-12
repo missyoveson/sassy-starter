@@ -1,12 +1,17 @@
 //Font Settings
 $font-family: sans-serif;
 $font-size: 16px;
+$font-rem: 1.6rem;
 $code-family:"Courier 10 Pitch", Courier, monospace;
 $code-size: 15px;
+$code-rem: 15px;
 $button-size: 12px;
 
 //Margin, Padding and other Layout Properties
-$margin_bottom: 1.5em;
+$margin-bottom: 1.5em;
+$border:1px solid #ccc;
+$padding: 3px;
+$border-radius: 3px;
 
 //Color
 $font-color: #404040;

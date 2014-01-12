@@ -10,7 +10,7 @@
 	padding: 0;
 }
 .wp-caption {
-	border: 1px solid #ccc;
+	border: $border;
 	margin-bottom: $margin_bottom;
 	max-width: 100%;
 }
@@ -29,6 +29,7 @@
 	margin-bottom: $margin_bottom;
 }
 .gallery-caption {
+	background: $background-color;
 }
 .site-main .gallery a img {
 	border: none;

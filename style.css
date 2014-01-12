@@ -108,7 +108,6 @@ a img {
  * Generator - http://gridpak.com/
  * Created by @erskinedesign
  */
-/* Reusable column setup */
 #primary, #secondary {
   border: 0px solid rgba(0, 0, 0, 0);
   float: left;
@@ -141,19 +140,9 @@ Span 12:    100%
     margin-left: 1%;
     padding: 0 1%; }
 
-  /* --- Gridpak variables ---*/
-  #primary, #primary:first-child, #secondary:first-child {
+  #primary #primary:first-child, #primary #secondary:first-child {
     margin-left: 0; }
 
-  /*
-  Add your semantic classnames in alongside their corresponding spans here. e.g.
-  
-  .span_3,
-  .my_semantic_class_name {
-      ...
-  }
-  
-  */
   #secondary {
     width: 32.66667%;
     border-left-width: 0;
@@ -529,6 +518,13 @@ a:active {
     display: none; } }
 /* =Content
 ----------------------------------------------- */
+@media screen and (max-width: 800px) {
+  #primary {
+    width: 100%; } }
+
+.sticky {
+  background: yellow; }
+
 .hentry {
   margin: 0 0 1.5em; }
 
@@ -584,6 +580,9 @@ a:active {
 .site-main .gallery {
   margin-bottom: 1.5em; }
 
+.gallery-caption {
+  background: white; }
+
 .site-main .gallery a img {
   border: none;
   height: auto;
@@ -613,8 +612,16 @@ object {
 .comment-content a {
   word-wrap: break-word; }
 
+.bypostauthor {
+  background: white; }
+
 /* =Widgets
 ----------------------------------------------- */
+@media screen and (max-width: 800px) {
+  #secondary {
+    width: 100%;
+    margin-left: 0; } }
+
 .widget {
   margin: 0 0 1.5em; }
 

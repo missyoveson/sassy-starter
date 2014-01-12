@@ -4,8 +4,12 @@
 	@extend %span_7;
 	@extend %col;
 	@extend %row;
+	@media screen and (max-width: 800px) {
+		width: 100%;
+	}
 }
 .sticky {
+	background: yellow;
 }
 .hentry {
 	margin: 0 0 $margin_bottom;
