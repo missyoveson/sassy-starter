@@ -5,7 +5,7 @@
  * Created by @erskinedesign
  */
 
-/* Reusable column setup */
+// Reusable column setup
 
 @mixin col {
     border:0px solid rgba(0,0,0,0);
@@ -60,7 +60,7 @@
             padding:0 1%;
         }
         
-        /* --- Gridpak variables ---*/ 
+        // Gridpak variables
         $max_columns: 12;
         $padding: 0 1%;
         $gutter_px: 0;
@@ -68,20 +68,9 @@
         
 
         
-        %row .col:first-child {
+        %row %col:first-child {
             @include span_first;
         }
-        
-        
-        /*
-        Add your semantic classnames in alongside their corresponding spans here. e.g.
-        
-        .span_3,
-        .my_semantic_class_name {
-            ...
-        }
-        
-        */
         %span_1 {
             @include span(1, $gutter_pc, $gutter_px, $padding, $max_columns);
         }

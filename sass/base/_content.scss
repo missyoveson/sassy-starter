@@ -4,11 +4,15 @@
 	@extend %span_7;
 	@extend %col;
 	@extend %row;
+	@media screen and (max-width: 800px) {
+		width: 100%;
+	}
 }
 .sticky {
+	background: yellow;
 }
 .hentry {
-	margin: 0 0 1.5em;
+	margin: 0 0 $margin_bottom;
 }
 .byline,
 .updated {
@@ -21,9 +25,9 @@
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: 1.5em 0 0;
+	margin: $margin_bottom 0 0;
 }
 .page-links {
 	clear: both;
-	margin: 0 0 1.5em;
+	margin: 0 0 $margin_bottom;
 }

@@ -109,6 +109,7 @@ a img {
  * Created by @erskinedesign
  */
 /* Reusable column setup */
+
 #primary, #secondary {
   border: 0px solid rgba(0, 0, 0, 0);
   float: left;
@@ -141,6 +142,7 @@ Span 12:    100%
     margin-left: 1%;
     padding: 0 1%; }
 
+<<<<<<< HEAD
   /* --- Gridpak variables ---*/
   #primary .col:first-child {
     margin-left: 0; }
@@ -154,12 +156,26 @@ Span 12:    100%
   }
   
   */
+=======
+  #primary #primary:first-child, #primary #secondary:first-child {
+    margin-left: 0; }
+
+>>>>>>> sass_folder
   #secondary {
     width: 32.66667%;
     border-left-width: 0;
     padding: 0 1%;
     margin-left: 1%; }
 
+<<<<<<< HEAD
+=======
+  [class*="navigation"] .nav-previous, [class*="navigation"] .nav-next {
+    width: 49.5%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 1%; }
+
+>>>>>>> sass_folder
   #primary {
     width: 57.91667%;
     border-left-width: 0;
@@ -232,13 +248,21 @@ pre {
   font-size: 15px;
   font-size: 1.5rem;
   line-height: 1.6;
+<<<<<<< HEAD
   margin-bottom: 1.6em;
+=======
+  margin-bottom: 1.5em;
+>>>>>>> sass_folder
   max-width: 100%;
   overflow: auto;
   padding: 1.6em; }
 
 code, kbd, tt, var {
+<<<<<<< HEAD
   font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace; }
+=======
+  font: 15px "Courier 10 Pitch", Courier, monospace; }
+>>>>>>> sass_folder
 
 abbr, acronym {
   border-bottom: 1px dotted #666;
@@ -364,7 +388,11 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
+<<<<<<< HEAD
   color: #666;
+=======
+  color: #404040;
+>>>>>>> sass_folder
   border: 1px solid #ccc;
   border-radius: 3px; }
 
@@ -374,7 +402,11 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 input[type="search"]:focus,
 textarea:focus {
+<<<<<<< HEAD
   color: #111; }
+=======
+  color: #404040; }
+>>>>>>> sass_folder
 
 input[type="text"],
 input[type="email"],
@@ -523,6 +555,16 @@ a:active {
     display: none; } }
 /* =Content
 ----------------------------------------------- */
+<<<<<<< HEAD
+=======
+@media screen and (max-width: 800px) {
+  #primary {
+    width: 100%; } }
+
+.sticky {
+  background: yellow; }
+
+>>>>>>> sass_folder
 .hentry {
   margin: 0 0 1.5em; }
 
@@ -578,6 +620,12 @@ a:active {
 .site-main .gallery {
   margin-bottom: 1.5em; }
 
+<<<<<<< HEAD
+=======
+.gallery-caption {
+  background: white; }
+
+>>>>>>> sass_folder
 .site-main .gallery a img {
   border: none;
   height: auto;
@@ -598,6 +646,7 @@ object {
   margin: 0 0 1.5em;
   overflow: hidden; }
 
+<<<<<<< HEAD
 [class*="navigation"] .nav-previous {
   float: left;
   width: 50%; }
@@ -606,14 +655,32 @@ object {
   float: right;
   text-align: right;
   width: 50%; }
+=======
+[class*="navigation"] .nav-next {
+  float: right;
+  text-align: right; }
+>>>>>>> sass_folder
 
 /* =Comments
 ----------------------------------------------- */
 .comment-content a {
   word-wrap: break-word; }
 
+<<<<<<< HEAD
 /* =Widgets
 ----------------------------------------------- */
+=======
+.bypostauthor {
+  background: white; }
+
+/* =Widgets
+----------------------------------------------- */
+@media screen and (max-width: 800px) {
+  #secondary {
+    width: 100%;
+    margin-left: 0; } }
+
+>>>>>>> sass_folder
 .widget {
   margin: 0 0 1.5em; }
 

@@ -3,9 +3,12 @@
 #secondary {
 	@extend %col;
 	@extend %span_4;
+	@media screen and (max-width: 800px) {
+		width: 100%;
+	}
 }
 .widget {
-	margin: 0 0 1.5em;
+	margin: 0 0 $margin_bottom;
 }
 
 /* Make sure select elements fit in widgets */
