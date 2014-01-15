@@ -4,13 +4,17 @@
 .main-navigation {
 	clear: both;
 	display: block;
-	float: left;
-	width: 100%;
+	@extend %span_12;
+	@extend %col;
+	@extend %row;
 }
 .main-navigation ul {
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
+	@media screen and (max-width: 600px) {
+		display: none;
+		}
 }
 .main-navigation li {
 	float: left;
@@ -61,10 +65,6 @@
 	.menu-toggle,
 	.main-navigation.toggled .nav-menu {
 		display: block;
-	}
-
-	.main-navigation ul {
-		display: none;
 	}
 }
 

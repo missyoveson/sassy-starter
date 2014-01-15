@@ -5,10 +5,11 @@
 	@extend %span_4;
 	@media screen and (max-width: 800px) {
 		width: 100%;
+		margin-left: 0; 
 	}
 }
 .widget {
-	margin: 0 0 $margin_bottom;
+	margin: 0 0 $margin-bottom;
 }
 
 /* Make sure select elements fit in widgets */

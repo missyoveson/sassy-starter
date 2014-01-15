@@ -5,7 +5,7 @@
  * Created by @erskinedesign
  */
 
-// Reusable column setup
+/* Reusable column setup */
 
 @mixin col {
     border:0px solid rgba(0,0,0,0);
@@ -35,32 +35,15 @@
 }
  
 
-    /* 1. 12 Column Grid 0px - Infinity 
-    ----------------------------------------------------------------------------- 
-    
-    Span 1:    7.41666666667%
-    Span 2:    15.8333333333%
-    Span 3:    24.25%
-    Span 4:    32.6666666667%
-    Span 5:    41.0833333333%
-    Span 6:    49.5%
-    Span 7:    57.9166666667%
-    Span 8:    66.3333333333%
-    Span 9:    74.75%
-    Span 10:    83.1666666667%
-    Span 11:    91.5833333333%
-    Span 12:    100%
-    
-    ----------------------------------------------------------------------------- */	
     
 	@media screen and (min-width: 0px) {
         
-        %col {
+        .col {
             margin-left:1%;
             padding:0 1%;
         }
         
-        // Gridpak variables
+        // Gridpak variables  
         $max_columns: 12;
         $padding: 0 1%;
         $gutter_px: 0;
@@ -68,45 +51,46 @@
         
 
         
-        %row %col:first-child {
+        %row {
             @include span_first;
         }
+
         %span_1 {
             @include span(1, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
         %span_2 {
             @include span(2, $gutter_pc, $gutter_px, $padding, $max_columns);
-        }
+			}
         %span_3 {
-            @include span(3, $gutter_pc, $gutter_px, $padding, $max_columns);
-        }
+            @include span(3, $gutter_pc, $gutter_px, $padding, $max_columns); 
+			}
         %span_4 {
             @include span(4, $gutter_pc, $gutter_px, $padding, $max_columns);
-        }
+			}
         %span_5 {
             @include span(5, $gutter_pc, $gutter_px, $padding, $max_columns);
-        }
+			}
         %span_6 {
             @include span(6, $gutter_pc, $gutter_px, $padding, $max_columns);
-        }
+			}
         %span_7 {
             @include span(7, $gutter_pc, $gutter_px, $padding, $max_columns);
-        }
+			}
         %span_8 {
             @include span(8, $gutter_pc, $gutter_px, $padding, $max_columns);
-        }
+			}
         %span_9 {
             @include span(9, $gutter_pc, $gutter_px, $padding, $max_columns);
-        }
+			}
         %span_10 {
             @include span(10, $gutter_pc, $gutter_px, $padding, $max_columns);
-        }
+			}
         %span_11 {
             @include span(11, $gutter_pc, $gutter_px, $padding, $max_columns);
-        }
+			}
         %span_12 {
             @include span_first;
             width:100%;
         }
-    }
- 
+     }
+

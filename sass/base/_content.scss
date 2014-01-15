@@ -9,10 +9,10 @@
 	}
 }
 .sticky {
-	background: yellow;
+background: yellow;
 }
 .hentry {
-	margin: 0 0 $margin_bottom;
+	margin: 0 0 $margin-bottom;
 }
 .byline,
 .updated {
@@ -25,9 +25,11 @@
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: $margin_bottom 0 0;
+	margin: $margin-bottom 0 0;
 }
 .page-links {
 	clear: both;
-	margin: 0 0 $margin_bottom;
+	margin: 0 0 $margin-bottom;
 }
+
+

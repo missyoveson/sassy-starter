@@ -11,7 +11,7 @@
 }
 .wp-caption {
 	border: $border;
-	margin-bottom: $margin_bottom;
+	margin-bottom: $margin-bottom;
 	max-width: 100%;
 }
 .wp-caption img[class*="wp-image-"] {
@@ -26,7 +26,7 @@
 	margin: 0.8075em 0;
 }
 .site-main .gallery {
-	margin-bottom: $margin_bottom;
+	margin-bottom: $margin-bottom;
 }
 .gallery-caption {
 	background: $background-color;
