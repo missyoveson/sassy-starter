@@ -1,11 +1,10 @@
 //Font Settings
 $font-family: sans-serif;
-$font-size: 16px;
-$font-rem: 1.6rem;
+//font size is controlled in the mixins section
+
 $code-family:"Courier 10 Pitch", Courier, monospace;
-$code-size: 15px;
-$code-rem: 1.5rem;
-$button-size: 12px;
+$code-size: 15;
+$button-size: 12;
 
 //Margin, Padding and other Layout Properties
 $margin-bottom: 1.5em;

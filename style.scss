@@ -15,19 +15,19 @@ Tags: responsive-layout, right-sidebar, two-columns
 
 
 // Basic Set Up
-@import "_reset.scss";
-@import "_grid.scss";
-@import "_variables.scss";
+@import "sass/_reset.scss";
+@import "sass/_grid.scss";
+@import "sass/_variables.scss";
+@import "sass/_mixins.scss";
 
 
 // Styling Includes
-@import "base/_globals.scss";
-@import "base/_menu.scss";
-@import "base/_content.scss";
-@import "base/_asides.scss";
-@import "base/_media.scss";
-@import "base/_navigation.scss";
-@import "base/_comments.scss";
-@import "base/_widgets.scss";
-@import "base/_infinite-scroll.scss";
-
+@import "sass/base/_globals.scss";
+@import "sass/base/_menu.scss";
+@import "sass/base/_content.scss";
+@import "sass/base/_asides.scss";
+@import "sass/base/_media.scss";
+@import "sass/base/_navigation.scss";
+@import "sass/base/_comments.scss";
+@import "sass/base/_widgets.scss";
+@import "sass/base/_infinite-scroll.scss";

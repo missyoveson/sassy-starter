@@ -9,8 +9,7 @@ textarea {
 	background: $background-color;
 	color: $font-color;
 	font-family: $font-family;
-	font-size: $font-size;
-	font-size: $font-rem;
+	@include font-size;
 	line-height: 1.5;
 }
 
@@ -65,8 +64,7 @@ address {
 pre {
 	background: #eee;
 	font-family: $code_family;
-	font-size: $code-size;
-	font-size: $code-rem;
+	@include font-size($code-size);
 	line-height: 1.6;
 	margin-bottom: $margin-bottom;
 	max-width: 100%;
@@ -139,8 +137,7 @@ input[type="submit"] {
 	color: rgba(0, 0, 0, .8);
 	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
 	-webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
-	font-size: $button-size;
-	font-size: 1.2rem;
+	@include font-size($button-size);
 	line-height: 1;
 	padding: .6em 1em .4em;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
