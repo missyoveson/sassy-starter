@@ -11,4 +11,4 @@ I hope you do amazing things and enjoy!
 + Sass tutorial to assist in the usage of this theme
 + UX CSS Updates  
 
-_Feel free to request features or information in the comments._
+_Feel free to request features or make comments in the pull requests._
