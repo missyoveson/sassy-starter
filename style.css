@@ -157,8 +157,8 @@ textarea {
   background: #FFF;
   color: #404040;
   font-family: sans-serif;
-  font-size: 16 px;
-  font-size: 1.6 em;
+  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.5; }
 
 /* Headings */
@@ -211,8 +211,8 @@ address {
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
-  font-size: 15 px;
-  font-size: 1.5 em;
+  font-size: 15px;
+  font-size: 1.5rem;
   line-height: 1.6;
   margin-bottom: 1.5em;
   max-width: 100%;
@@ -293,8 +293,8 @@ input[type="submit"] {
   /* Improves usability and consistency of cursor style between image-type 'input' and others */
   -webkit-appearance: button;
   /* Corrects inability to style clickable 'input' types in iOS */
-  font-size: 12 px;
-  font-size: 1.2 em;
+  font-size: 12px;
+  font-size: 1.2rem;
   line-height: 1;
   padding: .6em 1em .4em;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }

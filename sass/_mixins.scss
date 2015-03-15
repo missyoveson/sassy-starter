@@ -1,4 +1,4 @@
 @mixin font-size($pixels: 16) {
-	font-size: $pixels px;
-	font-size: $pixels/10 em;
+	font-size: $pixels+0px;
+	font-size: $pixels/10+0rem;
 }

@@ -1,11 +1,9 @@
 Hi,  
-I'm a WordPress starter theme based on [underscores (_s)](http://underscores.me/) with the CSS structured in Sass. I'm completely hackable and I'm not finished.  **Don't make me a parent theme!!** Use me to create something beautiful and fun.  
+I'm a WordPress starter theme based on [underscores (_s)](http://underscores.me/) with the CSS structured in Sass. I'm completely hackable and I'm not finished.  **Don't make me a parent theme!!** Use me to create something fun.  
 #####How do you get started?
-1. Download me from github: [https://github.com/MissyBunnie/Sassy-Starter](“https://github.com/MissyBunnie/Sassy-Starter”)
-2. Find and replace all sassy-starter and sassy_starter with the name of your theme.
-3. Do something amazing!  
-
-I hope you do amazing things and enjoy!
+1. Download me from [Github](https://github.com/MissyBunnie/Sassy-Starter) or [WordPress.org](https://wordpress.org/themes/sassy-starter)
+2. Find and replace all sassy-starter tags and sassy_starter functions with your own tags and functions.
+3. Make changes to make the theme all your own
 
 #####Coming Soon
 + Sass tutorial to assist in the usage of this theme
