@@ -5,8 +5,8 @@ I'm a WordPress starter theme based on [underscores (_s)](http://underscores.me/
 2. Find and replace all sassy-starter tags and sassy_starter functions with your own tags and functions.
 3. Make changes to make the theme all your own
 
+To learn more about how to use Sass check out: https://www.codeschool.com/courses/assembling-sass
 #####Coming Soon
-+ Sass tutorial to assist in the usage of this theme
 + UX CSS Updates  
 
 _Feel free to request features or make comments in the pull requests on github or on [WordPress.org](https://wordpress.org/themes/sassy-starter)._
