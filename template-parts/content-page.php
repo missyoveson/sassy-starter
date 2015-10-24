@@ -17,7 +17,7 @@
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'sassy_starter' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'sassy-starter' ),
 				'after'  => '</div>',
 			) );
 		?>
@@ -28,7 +28,7 @@
 			edit_post_link(
 				sprintf(
 					/* translators: %s: Name of current post */
-					esc_html__( 'Edit %s', 'sassy_starter' ),
+					esc_html__( 'Edit %s', 'sassy-starter' ),
 					the_title( '<span class="screen-reader-text">"', '"</span>', false )
 				),
 				'<span class="edit-link">',

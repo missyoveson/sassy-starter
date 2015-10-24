@@ -47,28 +47,28 @@ function sassy_starter_entry_footer() {
 	// Hide category and tag text for pages.
 	if ( 'post' === get_post_type() ) {
 		/* translators: used between list items, there is a space after the comma */
-		$categories_list = get_the_category_list( esc_html__( ', ', 'sassy_starter' ) );
+		$categories_list = get_the_category_list( esc_html__( ', ', 'sassy-starter' ) );
 		if ( $categories_list && sassy_starter_categorized_blog() ) {
-			printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'sassy_starter' ) . '</span>', $categories_list ); // WPCS: XSS OK.
+			printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'sassy-starter' ) . '</span>', $categories_list ); // WPCS: XSS OK.
 		}
 
 		/* translators: used between list items, there is a space after the comma */
-		$tags_list = get_the_tag_list( '', esc_html__( ', ', 'sassy_starter' ) );
+		$tags_list = get_the_tag_list( '', esc_html__( ', ', 'sassy-starter' ) );
 		if ( $tags_list ) {
-			printf( '<span class="tags-links">' . esc_html__( 'Tagged %1$s', 'sassy_starter' ) . '</span>', $tags_list ); // WPCS: XSS OK.
+			printf( '<span class="tags-links">' . esc_html__( 'Tagged %1$s', 'sassy_-tarter' ) . '</span>', $tags_list ); // WPCS: XSS OK.
 		}
 	}
 
 	if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
 		echo '<span class="comments-link">';
-		comments_popup_link( esc_html__( 'Leave a comment', 'sassy_starter' ), esc_html__( '1 Comment', 'sassy_starter' ), esc_html__( '% Comments', 'sassy_starter' ) );
+		comments_popup_link( esc_html__( 'Leave a comment', 'sassy-starter' ), esc_html__( '1 Comment', 'sassy-starter' ), esc_html__( '% Comments', 'sassy-starter' ) );
 		echo '</span>';
 	}
 
 	edit_post_link(
 		sprintf(
 			/* translators: %s: Name of current post */
-			esc_html__( 'Edit %s', 'sassy_starter' ),
+			esc_html__( 'Edit %s', 'sassy-starter' ),
 			the_title( '<span class="screen-reader-text">"', '"</span>', false )
 		),
 		'<span class="edit-link">',
