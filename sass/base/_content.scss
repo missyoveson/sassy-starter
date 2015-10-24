@@ -1,35 +1,42 @@
-/* =Content
------------------------------------------------ */
-#primary {
-	@extend %span_7;
-	@extend %col;
-	@extend %row;
-	@media screen and (max-width: 800px) {
-		width: 100%;
-	}
-}
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
 .sticky {
-background: $background-color;
+	display: block;
 }
+
 .hentry {
 	margin: 0 0 $margin-bottom;
 }
+
 .byline,
-.updated {
+.updated:not(.published) {
 	display: none;
 }
+
 .single .byline,
 .group-blog .byline {
 	display: inline;
 }
+
 .page-content,
 .entry-content,
 .entry-summary {
 	margin: $margin-bottom 0 0;
 }
+
 .page-links {
 	clear: both;
 	margin: 0 0 $margin-bottom;
 }
 
-
+/*--------------------------------------------------------------
+## Asides
+--------------------------------------------------------------*/
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+	display: none;
+}

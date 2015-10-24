@@ -22,12 +22,15 @@ Tags: responsive-layout, right-sidebar, two-columns
 
 
 // Styling Includes
-@import "sass/base/_globals.scss";
-@import "sass/base/_menu.scss";
-@import "sass/base/_content.scss";
-@import "sass/base/_asides.scss";
-@import "sass/base/_media.scss";
+@import "sass/base/_typography.scss";
+@import "sass/base/_elements.scss";
+@import "sass/base/_forms.scss";
 @import "sass/base/_navigation.scss";
-@import "sass/base/_comments.scss";
+@import "sass/base/_accessibility.scss";
+@import "sass/base/_formatting.scss";
 @import "sass/base/_widgets.scss";
+@import "sass/base/_content.scss";
+@import "sass/base/_comments.scss";
 @import "sass/base/_infinite-scroll.scss";
+@import "sass/base/_media.scss";
+@import "sass/base/_gallery.scss";

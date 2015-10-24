@@ -1,13 +1,5 @@
 /* =Widgets
 ----------------------------------------------- */
-#secondary {
-	@extend %col;
-	@extend %span_4;
-	@media screen and (max-width: 800px) {
-		width: 100%;
-		margin-left: 0; 
-	}
-}
 .widget {
 	margin: 0 0 $margin-bottom;
 }
