@@ -22,13 +22,16 @@ get_header(); ?>
 
 					<?php get_search_form(); ?>
 
-					<?php the_widget( 'WP_Widget_Recent_Posts' ); ?>
+					<?php the_widget( 'WP_Widget_Recent_Posts' );
 
-					<?php if ( sassy_starter_categorized_blog() ) : // Only show the widget if site has multiple categories. ?>
+					// Only show the widget if site has multiple categories.
+					if ( sassy_starter_categorized_blog() ) :
+					?>
+
 					<div class="widget widget_categories">
-						<h2 class="widgettitle"><?php esc_html_e( 'Most Used Categories', 'sassy-starter' ); ?></h2>
+						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'sassy-starter' ); ?></h2>
 						<ul>
-						<?php
+							<?php
 							wp_list_categories( array(
 								'orderby'    => 'count',
 								'order'      => 'DESC',
@@ -36,19 +39,19 @@ get_header(); ?>
 								'title_li'   => '',
 								'number'     => 10,
 							) );
-						?>
+							?>
 						</ul>
 					</div><!-- .widget -->
-					<?php endif; ?>
 
 					<?php
+					endif;
+
 					/* translators: %1$s: smiley */
 					$archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'sassy-starter' ), convert_smilies( ':)' ) ) . '</p>';
 					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$archive_content" );
+
+					the_widget( 'WP_Widget_Tag_Cloud' );
 					?>
-
-					<?php the_widget( 'WP_Widget_Tag_Cloud' ); ?>
-
 				</div><!-- .page-content -->
 			</section><!-- .error-404 -->
 
