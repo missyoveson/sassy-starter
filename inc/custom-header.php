@@ -32,8 +32,6 @@ function sassy_starter_custom_header_setup() {
 		'height'                 => 250,
 		'flex-height'            => true,
 		'wp-head-callback'       => 'sassy_starter_header_style',
-		'admin-head-callback'    => 'sassy_starter_admin_header_style',
-		'admin-preview-callback' => 'sassy_starter_admin_header_image',
 	) ) );
 }
 add_action( 'after_setup_theme', 'sassy_starter_custom_header_setup' );
@@ -78,53 +76,3 @@ function sassy_starter_header_style() {
 	<?php
 }
 endif; // sassy_starter_header_style
-
-if ( ! function_exists( 'sassy_starter_admin_header_style' ) ) :
-/**
- * Styles the header image displayed on the Appearance > Header admin panel.
- *
- * @see sassy_starter_custom_header_setup().
- */
-function sassy_starter_admin_header_style() {
-?>
-	<style type="text/css">
-		.appearance_page_custom-header #headimg {
-			border: none;
-		}
-		#headimg h1,
-		#desc {
-		}
-		#headimg h1 {
-		}
-		#headimg h1 a {
-		}
-		#desc {
-		}
-		#headimg img {
-		}
-	</style>
-<?php
-}
-endif; // sassy_starter_admin_header_style
-
-if ( ! function_exists( 'sassy_starter_admin_header_image' ) ) :
-/**
- * Custom header image markup displayed on the Appearance > Header admin panel.
- *
- * @see sassy_starter_custom_header_setup().
- */
-function sassy_starter_admin_header_image() {
-	$style = sprintf( ' style="color:#%s;"', get_header_textcolor() );
-?>
-	<div id="headimg">
-		<h1 class="displaying-header-text">
-			<a id="name" style="<?php echo esc_attr( 'color: #' . get_header_textcolor() ); ?>" onclick="return false;" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
-		</h1>
-		<div class="displaying-header-text" id="desc" style="<?php echo esc_attr( 'color: #' . get_header_textcolor() ); ?>"><?php bloginfo( 'description' ); ?></div>
-		<?php if ( get_header_image() ) : ?>
-		<img src="<?php header_image(); ?>" alt="">
-		<?php endif; ?>
-	</div>
-<?php
-}
-endif; // sassy_starter_admin_header_image

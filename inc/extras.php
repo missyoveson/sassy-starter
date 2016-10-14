@@ -18,7 +18,20 @@ function sassy_starter_body_classes( $classes ) {
 	if ( is_multi_author() ) {
 		$classes[] = 'group-blog';
 	}
-
+    // Adds a class of hfeed to non-singular pages.
+    if ( ! is_singular() ) {
+        $classes[] = 'hfeed';
+    }
 	return $classes;
 }
 add_filter( 'body_class', 'sassy_starter_body_classes' );
+
+/**
+ * Add a pingback url auto-discovery header for singularly identifiable articles.
+ */
+function sassy_starter_pingback_header() {
+    if ( is_singular() && pings_open() ) {
+        echo '<link rel="pingback" href="', bloginfo( 'pingback_url' ), '">';
+    }
+}
+add_action( 'wp_head', 'sassy_starter_pingback_header' );
