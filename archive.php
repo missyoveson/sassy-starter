@@ -4,7 +4,7 @@
  *
  * @link http://codex.wordpress.org/Template_Hierarchy
  *
- * @package sassy_starter
+ * @package Sassy Starter
  */
 
 get_header(); ?>

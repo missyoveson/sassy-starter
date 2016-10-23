@@ -19,8 +19,6 @@
  * Setup the WordPress core custom header feature.
  *
  * @uses sassy_starter_header_style()
- * @uses sassy_starter_admin_header_style()
- * @uses sassy_starter_admin_header_image()
  *
  * @package Sassy Starter
  */

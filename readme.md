@@ -7,4 +7,6 @@ I'm a WordPress starter theme based on [underscores (_s)](http://underscores.me/
 
 To learn more about how to use Sass check out: https://www.codeschool.com/courses/assembling-sass
 
-_Feel free to request features or make comments in the pull requests on github or on [WordPress.org](https://wordpress.org/themes/sassy-starter)._
+_Feel free to request features or make comments in the pull requests on [Github](https://github.com/MissyBunnie/Sassy-Starter) or on [WordPress.org](https://wordpress.org/themes/sassy-starter)._
+
+**For the most up to date code go to [Github](https://github.com/MissyBunnie/Sassy-Starter)**
